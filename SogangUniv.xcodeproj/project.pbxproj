@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403192002981E6E1006A2101 /* FreeBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403191FF2981E6E1006A2101 /* FreeBoardViewController.swift */; };
 		40B77AF8298038180016D43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B77AF7298038180016D43B /* AppDelegate.swift */; };
 		40B77AFA298038180016D43B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B77AF9298038180016D43B /* SceneDelegate.swift */; };
 		40B77AFC298038180016D43B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B77AFB298038180016D43B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		403191FF2981E6E1006A2101 /* FreeBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeBoardViewController.swift; sourceTree = "<group>"; };
 		40B77AF4298038180016D43B /* SogangUniv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SogangUniv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B77AF7298038180016D43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40B77AF9298038180016D43B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,8 +60,9 @@
 			children = (
 				40B77AF7298038180016D43B /* AppDelegate.swift */,
 				40B77AF9298038180016D43B /* SceneDelegate.swift */,
-				40B77AFB298038180016D43B /* ViewController.swift */,
 				40B77AFD298038180016D43B /* Main.storyboard */,
+				40B77AFB298038180016D43B /* ViewController.swift */,
+				403191FF2981E6E1006A2101 /* FreeBoardViewController.swift */,
 				40B77B002980381B0016D43B /* Assets.xcassets */,
 				40B77B022980381B0016D43B /* LaunchScreen.storyboard */,
 				40B77B052980381B0016D43B /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B77AFC298038180016D43B /* ViewController.swift in Sources */,
+				403192002981E6E1006A2101 /* FreeBoardViewController.swift in Sources */,
 				40B77AF8298038180016D43B /* AppDelegate.swift in Sources */,
 				40B77AFA298038180016D43B /* SceneDelegate.swift in Sources */,
 			);
