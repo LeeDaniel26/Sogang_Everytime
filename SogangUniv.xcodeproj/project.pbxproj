@@ -14,6 +14,9 @@
 		40B77AFF298038180016D43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B77AFD298038180016D43B /* Main.storyboard */; };
 		40B77B012980381B0016D43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B77B002980381B0016D43B /* Assets.xcassets */; };
 		40B77B042980381B0016D43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B77B022980381B0016D43B /* LaunchScreen.storyboard */; };
+		6BD26FB7299417510087A24B /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD26FB5299417510087A24B /* BoardCell.swift */; };
+		6BD26FB8299417510087A24B /* BoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD26FB6299417510087A24B /* BoardCell.xib */; };
+		6BD26FBA299434730087A24B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD26FB9299434730087A24B /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		40B77B002980381B0016D43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B77B032980381B0016D43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40B77B052980381B0016D43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD26FB5299417510087A24B /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		6BD26FB6299417510087A24B /* BoardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCell.xib; sourceTree = "<group>"; };
+		6BD26FB9299434730087A24B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				40B77B002980381B0016D43B /* Assets.xcassets */,
 				40B77B022980381B0016D43B /* LaunchScreen.storyboard */,
 				40B77B052980381B0016D43B /* Info.plist */,
+				6BD26FB5299417510087A24B /* BoardCell.swift */,
+				6BD26FB6299417510087A24B /* BoardCell.xib */,
+				6BD26FB9299434730087A24B /* Message.swift */,
 			);
 			path = SogangUniv;
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 			files = (
 				40B77B042980381B0016D43B /* LaunchScreen.storyboard in Resources */,
 				40B77B012980381B0016D43B /* Assets.xcassets in Resources */,
+				6BD26FB8299417510087A24B /* BoardCell.xib in Resources */,
 				40B77AFF298038180016D43B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD26FB7299417510087A24B /* BoardCell.swift in Sources */,
 				40B77AFC298038180016D43B /* ViewController.swift in Sources */,
 				403192002981E6E1006A2101 /* FreeBoardViewController.swift in Sources */,
+				6BD26FBA299434730087A24B /* Message.swift in Sources */,
 				40B77AF8298038180016D43B /* AppDelegate.swift in Sources */,
 				40B77AFA298038180016D43B /* SceneDelegate.swift in Sources */,
 			);

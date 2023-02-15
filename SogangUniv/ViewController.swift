@@ -11,8 +11,8 @@ class ViewController: UIViewController {
 
     
     @IBOutlet var noticeLabel: [UILabel]!
-    @IBOutlet var button1Label: [UILabel]!
-    @IBOutlet var button2Label: [UILabel]!
+    @IBOutlet var websiteButtonLabel: [UILabel]!
+    @IBOutlet var boardButton: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,18 +46,18 @@ class ViewController: UIViewController {
     }
     
     func setButton1Label() {
-        for i in 0..<button1Label.count {
-            button1Label[i].font = UIFont.boldSystemFont(ofSize: 8)
+        for i in 0..<websiteButtonLabel.count {
+            websiteButtonLabel[i].font = UIFont.boldSystemFont(ofSize: 8)
         }
     }
     
     func setButton2Label() {
-        for i in 0..<button2Label.count {
-            button2Label[i].backgroundColor = UIColor.white
-            button2Label[i].layer.borderWidth = 1.2
-            button2Label[i].layer.borderColor = UIColor.black.cgColor
-            button2Label[i].layer.cornerRadius = 24
-            button2Label[i].font = UIFont.boldSystemFont(ofSize: 13)
+        for i in 0..<boardButton.count {
+            boardButton[i].backgroundColor = UIColor.white
+            boardButton[i].layer.borderWidth = 1.2
+            boardButton[i].layer.borderColor = UIColor.black.cgColor
+            boardButton[i].layer.cornerRadius = 24
+            boardButton[i].titleLabel?.font = UIFont.boldSystemFont(ofSize: 13)
         }
     }
 }
